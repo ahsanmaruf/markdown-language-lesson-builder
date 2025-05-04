@@ -6,7 +6,8 @@ A simple script to generate Obsidian-style .md files for language learning notes
 ## ✅ What It Does
 
 	• Create structured folders from a single csv file
-	• Folders are structured like this:
+	
+    • Folders are structured like this:
 
         - Output (e.g. German)
             - level (e.g. A1.1)
@@ -16,10 +17,12 @@ A simple script to generate Obsidian-style .md files for language learning notes
 	• Skips files that already exist - So you can run it multiple
       times if needed to add new lessons, without worrying about 
       overwriting your notes!
-    • Creates a word collector file for each lesson. This only collects
-        words from the notes that are created by this script and have the 
-        table for words in them. You can add the table anywhere too and it will
-        collect the words from there. It also deduplicates the words! 
+    
+    • Generates a words.md file by extracting all words in the 
+      language folder. Followed by deduplicating them. To use this 
+      feature, given template must be used.
+    
+    • Also creates an Anki-importable txt file.
 
 
 ## 📝 How to create lessons
