@@ -2,7 +2,7 @@
 
 TEMPLATE_DIR="templates"
 LESSON_FILE="lessons/topics.csv"
-OUTPUT_DIR="output"
+OUTPUT_DIR="German"
 DATE_START=$(date "+%Y-%m-%d")
 
 mkdir -p "$OUTPUT_DIR"
