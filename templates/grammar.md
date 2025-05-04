@@ -5,14 +5,22 @@ category: grammar
 tags: [grammar, {{level_tag}}]
 ---
 
-# 📘 {{title}}
+# {{title}}
 
-## How it works  
-_(Explain it in your own words)_
+### Overview
 
-## Examples  
--  
--  
+Briefly define what this grammar point is and when it's used.
 
-## Practice  
--  
+### Structure
+
+Show the grammar form, rule, or sentence pattern.
+Use examples or even a table if needed.
+
+### Vocabulary
+| German | English |
+|--------|---------|
+|        |         |
+### Practice
+
+- [ ] Write your own sentence
+	- 
