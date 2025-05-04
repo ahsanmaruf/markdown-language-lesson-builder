@@ -1,6 +1,6 @@
 ## 📘 Obsidian Lesson Builder
 
-A simple script to generate Obsidian-style .md files for language learning notes. It creates a folder structure based on a CSV file containing just lesson information and few templates!
+A simple script to generate Obsidian-style .md files for language learning notes. It creates a folder structure based on a CSV file containing just lesson information and few templates! There is also a word collector `collect_words.sh` that can be used to collect words from your notes under the template words table and add them on a separate .md file.
 
 
 ## ✅ What It Does
@@ -16,6 +16,10 @@ A simple script to generate Obsidian-style .md files for language learning notes
 	• Skips files that already exist - So you can run it multiple
       times if needed to add new lessons, without worrying about 
       overwriting your notes!
+    • Creates a word collector file for each lesson. This only collects
+        words from the notes that are created by this script and have the 
+        table for words in them. You can add the table anywhere too and it will
+        collect the words from there. It also deduplicates the words! 
 
 
 ## 📝 How to create lessons
@@ -41,9 +45,11 @@ Current Obsidian implementation expects:
 
 ```shell
 chmod +x create_notes.sh
+chmod +x collect_words.sh
 ```
 ```shell
 ./create_notes.sh
+./collect_words.sh
 ```
 
 und Viel Erfolg beim Sprachenlernen! 🎉
