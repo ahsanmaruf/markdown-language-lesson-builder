@@ -1,6 +1,6 @@
 ## 📘 Obsidian Lesson Builder
 
-A simple script to generate Obsidian-style .md files for language learning notes. It creates a folder structure based on a CSV file containing just lesson information. Folders such as `German/A1.1/grammar/01 - Personal pronouns.md`
+A simple script to generate Obsidian-style .md files for language learning notes. It creates a folder structure based on a CSV file containing just lesson information and few templates!
 
 
 ## ✅ What It Does
@@ -14,7 +14,7 @@ A simple script to generate Obsidian-style .md files for language learning notes
                     - topic.md (e.g. 01 - Personal pronouns)
 
 	• Skips files that already exist - So you can run it multiple
-      times if needed to update the lesson, without worrying about 
+      times if needed to add new lessons, without worrying about 
       overwriting your notes!
 
 
